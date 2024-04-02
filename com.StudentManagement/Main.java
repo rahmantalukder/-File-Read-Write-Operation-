@@ -1,3 +1,5 @@
+/* This is my program */
+
 package com.StudentManagement;
 
 import java.util.ArrayList;
@@ -9,6 +11,7 @@ public class Main {
 		FileReadWrite frw = new FileReadWrite();
 		/*for(int i=1; i<=100; i++) {
 			frw.writeFile(String.valueOf(i), path+"//numberFormat.txt");
+		
 		}*/
 		
 		ArrayList<String> ans = frw.readFile(path+"\\numberFormat.txt");
